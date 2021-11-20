@@ -9,19 +9,22 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
+            <RowDefinition Height="3"/>
             <RowDefinition/>
             <RowDefinition Height="26"/>
         </Grid.RowDefinitions>
-        <StackPanel x:Name="Head" Orientation="Horizontal" >
+        <Grid x:Name="Head">
             <StackPanel Orientation="Horizontal">
                 <Image Source="/logo.jpg" Height="{Binding ElementName=Head, Path=ActualHeight}"/>
                 <Label Content="NBA Management System" VerticalContentAlignment="Center"/>
             </StackPanel>
-            <Button Content="Back" HorizontalAlignment="Left"/>
-        </StackPanel>
+            <Label/>
+            <Button Content="Back" HorizontalAlignment="Right" Height="20" Margin="10" Width="50"/>
+        </Grid>
+        <Rectangle Fill="Black" Grid.Row="1"/>
         <Grid Grid.Row="1">
            
         </Grid>
-        <Label Grid.Row="2" Content="The current season is 2016-2017, and the NBA already has a history of 71 years." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Background="#6995c2" Foreground="White"/>
+        <Label Grid.Row="3" Content="The current season is 2016-2017, and the NBA already has a history of 71 years." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Background="#6995c2" Foreground="White"/>
     </Grid>
 </Window>
