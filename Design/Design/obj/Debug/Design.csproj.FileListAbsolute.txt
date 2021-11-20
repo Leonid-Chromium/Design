@@ -13,3 +13,5 @@ D:\File\GitHub\Design\Design\Design\obj\Debug\Design.csproj.GenerateResource.cac
 D:\File\GitHub\Design\Design\Design\obj\Debug\Design.csproj.CoreCompileInputs.cache
 D:\File\GitHub\Design\Design\Design\obj\Debug\Design.exe
 D:\File\GitHub\Design\Design\Design\obj\Debug\Design.pdb
+D:\File\GitHub\Design\Design\Design\obj\Debug\ButtonStyle.baml
+D:\File\GitHub\Design\Design\Design\obj\Debug\App.baml

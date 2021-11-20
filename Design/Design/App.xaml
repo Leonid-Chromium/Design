@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Design"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="ButtonStyle.xaml"/>
     </Application.Resources>
 </Application>
