@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\File\GitHub\Design\Design\Design\App.xaml
-2-2129501596
+61862343620
 
-5-2017746502
+8447085898
 13-1505183044
-ButtonStyle.xaml;MainWindow.xaml;
+Styles\ButtonStyle.xaml;Styles\ColorsDictionary.xaml;UCs\MainUC.xaml;UCs\VisitorUC.xaml;Windows\AuthenticationWindow.xaml;Windows\MainWindow.xaml;
 
 False
 
