@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Design.Windows"
         xmlns:localUC="clr-namespace:Design.UCs"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        MinHeight="490" MinWidth="820">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
