@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace Design.UCs
         public VisitorUC()
         {
             InitializeComponent();
+        }
+
+        private void TeamsButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
+            mainWindow.ChangeUC(mainWindow.teamsMainUC, "Main Teams");
         }
     }
 }

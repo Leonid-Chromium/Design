@@ -29,13 +29,13 @@ namespace Design.UCs
         private void VisitorButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
-            Windows.MainWindow.ChangeUC(mainWindow.visitorUC);
+            MainWindow.ChangeUC((UserControl)mainWindow.visitorUC);
         }
 
         private void AdminButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = (MainWindow)Window.GetWindow(this);
-            Windows.MainWindow.ChangeUC(mainWindow.visitorUC);
+            MainWindow.ChangeUC(mainWindow.visitorUC);
         }
     }
 }

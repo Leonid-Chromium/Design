@@ -58,6 +58,9 @@
     <Compile Include="UCs\MainUC.xaml.cs">
       <DependentUpon>MainUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UCs\TeamsMainUC.xaml.cs">
+      <DependentUpon>TeamsMainUC.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UCs\VisitorUC.xaml.cs">
       <DependentUpon>VisitorUC.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UCs\MainUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCs\TeamsMainUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

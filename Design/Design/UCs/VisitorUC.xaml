@@ -20,7 +20,8 @@
             <Button x:Name="TeamsButton" Content="Teams"
                     Grid.Column="0" Grid.Row="0"
                     Margin="30, 20"
-                    Background="{StaticResource NBABlue}"/>
+                    Background="{StaticResource NBABlue}"
+                    Click="TeamsButton_Click"/>
             <Button x:Name="PlayersButton" Content="Players"
                     Grid.Column="1" Grid.Row="0"
                     Margin="30, 20"

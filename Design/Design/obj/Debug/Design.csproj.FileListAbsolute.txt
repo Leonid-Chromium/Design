@@ -23,3 +23,5 @@ D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\MainUC.baml
 D:\File\GitHub\Design\Design\Design\obj\Debug\Styles\ColorsDictionary.baml
 D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\VisitorUC.g.cs
 D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\VisitorUC.baml
+D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamsMainUC.g.cs
+D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamsMainUC.baml

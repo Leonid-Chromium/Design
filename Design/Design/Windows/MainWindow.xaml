@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         MinHeight="490" MinWidth="820">
-    <Grid>
+    <Grid x:Name="firstGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition/>
@@ -20,12 +20,19 @@
                     <Image Source="../Assets/logo.jpg" Height="{Binding ElementName=Head, Path=ActualHeight}"/>
                     <Label Content="NBA Management System" VerticalContentAlignment="Center"/>
                 </StackPanel>
-                <Label Content="Admin Login" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Button Content="Back" HorizontalAlignment="Right" Height="20" Margin="10" Width="50"/>
+                <Label x:Name="headerLabel"
+                       Content="Admin Login"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Button x:Name="backButton" Content="Back"
+                        HorizontalAlignment="Right"
+                        Height="20" Width="50"
+                        Margin="10"
+                        Click="backButton_Click"/>
             </Grid>
         </Border>
         <localUC:MainUC x:Name="mainUC" Grid.Row="0" Grid.RowSpan="2" IsVisibleChanged="mainUC_IsVisibleChanged"/>
         <localUC:VisitorUC x:Name="visitorUC" Grid.Column="0" Grid.Row="1" Visibility="Collapsed"/>
+        <localUC:TeamsMainUC x:Name="teamsMainUC" Grid.Row="1" Visibility="Collapsed"/>
         <Label x:Name="Footer"
                Grid.Row="2" Content="The current season is 2016-2017, and the NBA already has a history of 71 years."
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
