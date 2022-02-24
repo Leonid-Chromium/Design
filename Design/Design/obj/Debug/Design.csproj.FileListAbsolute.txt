@@ -25,3 +25,5 @@ D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\VisitorUC.g.cs
 D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\VisitorUC.baml
 D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamsMainUC.g.cs
 D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamsMainUC.baml
+D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamCard.g.cs
+D:\File\GitHub\Design\Design\Design\obj\Debug\UCs\TeamCard.baml
